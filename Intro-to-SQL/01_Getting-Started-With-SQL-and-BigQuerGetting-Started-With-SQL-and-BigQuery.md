@@ -38,7 +38,7 @@ table.schema
 
 2. Imprimir registros de la tabla *full*
 ```
-client.list_rows(table, max_result = 5).to_dataframe()
+client.list_rows(table, max_results = 5).to_dataframe()
 ```
 
 3. Imprimir registros de la tabla *full* de una columna en particular
