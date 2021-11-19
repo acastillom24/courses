@@ -2,6 +2,10 @@
 
 # WITH ... AS
 
+Por sí solo, AS es una forma conveniente de limpiar los datos devueltos por su consulta. Es incluso más poderoso cuando se combina con WITH en lo que se llama una "expresión de tabla común".
+
+Una expresión de tabla común (o CTE) es una tabla temporal que devuelve dentro de su consulta. Los CTE son útiles para dividir sus consultas en fragmentos legibles y puede escribir consultas sobre ellos.
+
 ```python
 # Query to select the number of transactions per date, sorted by date
 query_with_CTE = """ 
